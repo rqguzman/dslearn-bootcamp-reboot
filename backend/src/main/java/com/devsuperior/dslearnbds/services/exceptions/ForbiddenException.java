@@ -8,6 +8,4 @@ public class ForbiddenException extends RuntimeException {
         super(msg);
     }
 
-
-
 }

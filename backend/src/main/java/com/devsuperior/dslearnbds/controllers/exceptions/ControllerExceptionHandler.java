@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.time.Instant;
 
 @ControllerAdvice
-public class ResourceExceptionHandler {
+public class ControllerExceptionHandler {
 
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<StandardError> entityNotFound(ResourceNotFoundException e, HttpServletRequest request) {
